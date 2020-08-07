@@ -10,7 +10,7 @@ db.user.create({
     console.log(data);
 }); 
 
-search by id
+// search by id
 db.user.findOne({
     where: { id: 1 }
 }).then(user => {
